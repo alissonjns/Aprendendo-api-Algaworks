@@ -7,11 +7,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class MeuPrimeiroController {
 	
-	@GetMapping("/hello!")
+	@GetMapping
 	@ResponseBody
-	public String hello(){
-		return "hello!";	
+	public String Hello() {
+		return "hello!";
+		
 		
 	}
+
 
 }
